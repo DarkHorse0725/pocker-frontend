@@ -1,0 +1,10 @@
+# ignore artifacts:
+build
+coverage
+
+# ignore all HTML files:
+*.html
+
+#ignore specific files
+Constants.tsx
+node_modules/**

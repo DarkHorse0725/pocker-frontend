@@ -1,0 +1,45 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+
+  /* background-color: #1c1c1e; */
+
+  background: #232323;
+  color: #cdcdcd;
+  font-family: 'Avenir Next', 'Avenir', sans-serif;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* @font-face {
+  font-family: 'Larsseit';
+  src: url('/fonts/Larsseit/Larsseit.otf');
+} */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: none !important;
+}
+
+.css-1480iag-MuiInputBase-root-MuiInput-root:after {
+  border-bottom: none !important;
+}
+@font-face {
+  font-family: 'Larsseit';
+  src: url('/fonts/Larsseit/Larsseit.otf');
+}

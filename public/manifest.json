@@ -1,0 +1,38 @@
+{
+  "short_name": "Mobile ICE",
+  "name": "Mobile ICE | Decentral Games",
+  "description": "Free to play, play to earn gaming on mobile. Play ICE Poker, trade NFTs, and earn real money.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/icon-256x256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/icons/icon-348x348.png",
+      "type": "image/png",
+      "sizes": "348x348"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icons/maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#0086F4"
+}

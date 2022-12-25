@@ -1,0 +1,45 @@
+{
+  "name": "decentral-games-mobile-client",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install",
+    "pre-commit": "next lint --fix && git add -A ."
+  },
+  "dependencies": {
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.2.3",
+    "axios": "0.21.4",
+    "next": "^12.0.7",
+    "next-pwa": "^5.4.1",
+    "nextjs-progressbar": "0.0.13",
+    "react": "17.0.2",
+    "react-countdown-circle-timer": "^2.5.4",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "web3": "1.5.2-rc.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.9",
+    "@types/react": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "4.13.0",
+    "@typescript-eslint/parser": "4.13.0",
+    "eslint": "7.32.0",
+    "eslint-config-next": "12.0.4",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^7.0.4",
+    "prettier": "2.5.1",
+    "typescript": "^4.5.2",
+    "webpack-dev-server": "^3.0.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "eslint --cache --fix",
+    "*.{ts,tsx,css,md}": "prettier --write",
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
